@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         case name
         when "Theo"
-          if info == :color
+          if type == :color
             attribute.each do |attribute|
               pigeon_list[name][:color]
             end
