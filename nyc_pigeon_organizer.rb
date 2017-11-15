@@ -38,6 +38,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  pigeon_list
+  theo_stats
   binding.pry
 end
