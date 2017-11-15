@@ -14,6 +14,13 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         case name
         when "Theo"
+          if attribute == :color
+
+          elsif attribute == :gender
+
+          else
+
+          end
           theo_stats.push(attribute.to_s)
           pigeon_list[name] = theo_stats
         when "Peter Jr."
