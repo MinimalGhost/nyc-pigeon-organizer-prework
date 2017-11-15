@@ -10,12 +10,15 @@ def nyc_pigeon_organizer(data)
   andrew_stats = []
   alex_stats = []
   data.each do |attribute, type|
-    type.each do |attribute, names|
+    type.each do |info, names|
       names.each do |name|
         case name
         when "Theo"
           if attribute == :color
-
+            attribute.each do |attribute|
+              pigeon_list[name][:color]
+            end
+            
           elsif attribute == :gender
 
           else
