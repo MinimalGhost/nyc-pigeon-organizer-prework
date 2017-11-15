@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
         case name
         when "Theo"
           theo_stats.push(attribute.to_s)
+          new_hash[name] = theo_stats
         when "Peter Jr."
           peter_stats.push(attribute.to_s)
         when "Lucky"
@@ -28,18 +29,9 @@ def nyc_pigeon_organizer(data)
         when "Alex"
           alex_stats.push(attribute.to_s)
         end
-        # if name == "Theo"
-        #   theo_stats.push(color.to_s)
-        # end
       end
     end
   end
-  theo_stats
-  peter_stats
-  lucky_stats
-  miss_stats
-  queenie_stats
-  andrew_stats
-  alex_stats
+  new_hash
   binding.pry
 end
