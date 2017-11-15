@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
             attribute.each do |attribute|
               pigeon_list[name][:color]
             end
-            
+
           elsif attribute == :gender
 
           else
